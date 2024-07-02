@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CBnWxuuS.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"helpers/gap.md","filePath":"helpers/gap.md","lastUpdated":1719917686000}'),r={name:"helpers/gap.md"};function s(p,o,c,n,d,l){return a(),t("div")}const m=e(r,[["render",s]]);export{i as __pageData,m as default};
