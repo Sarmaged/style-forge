@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -23,52 +23,22 @@ jobs:
           node-version: 20
           cache: yarn
 
-      - name: Configure git
+      - name: Configure Git
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-      - name: Wait for 10 seconds
-        run: sleep 10
-
-      - name: Determine version update type
-        id: get_update_type
-        run: echo "Update type is ${{ github.event.client_payload.update_type }}"
-
-      - name: Fetch all tags
-        run: git fetch --tags
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Upgrade dependency
-        run: yarn upgrade ${{ github.event.client_payload.package_name }} --latest
-
-      - name: Generate version from date (YYYY.M.D)
-        id: generate_version
+      - name: Extract version from package.json
+        id: extract_version
         run: |
-          VERSION="v$(date +'%Y.%m.%d' | sed 's/0//g')"
+          VERSION=$(jq -r '.version' package.json)
           echo "VERSION=$VERSION" >> $GITHUB_ENV
-          echo "Generated version: $VERSION"
+          echo "Extracted version: $VERSION"
 
-      - name: Update version in package.json
+      - name: Create Git tag
         run: |
-          jq --arg new_version "${{ env.VERSION }}" '.version = $new_version' package.json > temp.json && mv temp.json package.json
-          echo "Updated package.json to version: ${{ env.VERSION }}"
-
-      - name: Build project
-        run: yarn build
-
-      - name: Commit and push changes
-        run: |
-          git add package.json yarn.lock style-forge.css
-          git commit -m "chore: update ${{ github.event.client_payload.package_name }} to version ${{ env.VERSION }}"
-          git push origin main
-
-      - name: Create and push version tag
-        run: |
-          git tag ${{ env.VERSION }}
-          git push origin ${{ env.VERSION }}
+          git tag -a "${{ env.VERSION }}" -m "Release ${{ env.VERSION }}"
+          git push origin "${{ env.VERSION }}"
 
       - name: Set up NPM auth
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
@@ -77,11 +47,3 @@ jobs:
         run: yarn publish --non-interactive
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Trigger documentation update
-        run: |
-          curl -X POST \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.NOTIFY_GITHUB_TOKEN }}" \
-            https://api.github.com/repos/Style-Forge/hub/dispatches \
-            -d '{"event_type":"update-docs"}'
