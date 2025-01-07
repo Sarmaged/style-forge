@@ -24,7 +24,7 @@ browserslist@^4.23.3:
     node-releases "^2.0.19"
     update-browserslist-db "^1.1.1"
 
-caniuse-lite@^1.0.30001646, caniuse-lite@^1.0.30001688, caniuse-lite@^1.0.30001690:
+caniuse-lite@^1.0.30001646, caniuse-lite@^1.0.30001688:
   version "1.0.30001690"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001690.tgz#f2d15e3aaf8e18f76b2b8c1481abde063b8104c8"
   integrity sha512-5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==
@@ -35,9 +35,9 @@ cssesc@^3.0.0:
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
 electron-to-chromium@^1.5.73:
-  version "1.5.77"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.77.tgz#b9e7aa2d833084aac5253d36fc85f99d7cf8ce98"
-  integrity sha512-AnJSrt5JpRVgY6dgd5yccguLc5A7oMSF0Kt3fcW+Hp5WTuFbl5upeSFZbMZYy2o7jhmIhU8Ekrd82GhyXUqUUg==
+  version "1.5.78"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.78.tgz#223cdc76a5d15ac731136e68430e92cb8d612d13"
+  integrity sha512-UmwIt7HRKN1rsJfddG5UG7rCTCTAKoS9JeOy/R0zSenAyaZ8SU3RuXlwcratxhdxGRNpk03iq8O7BA3W7ibLVw==
 
 escalade@^3.2.0:
   version "3.2.0"
@@ -61,17 +61,17 @@ hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
-is-core-module@^2.13.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.14.0.tgz#43b8ef9f46a6a08888db67b1ffd4ec9e3dfd59d1"
-  integrity sha512-a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==
+is-core-module@^2.16.0:
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.16.1.tgz#2a98801a849f43e2add644fbb6bc6229b19a4ef4"
+  integrity sha512-UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==
   dependencies:
     hasown "^2.0.2"
 
 nanoid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.8.tgz#b1be3030bee36aaff18bacb375e5cce521684baf"
+  integrity sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==
 
 node-releases@^2.0.19:
   version "2.0.19"
@@ -88,12 +88,7 @@ path-parse@^1.0.7:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
-picocolors@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.1.tgz#a8ad579b571952f0e5d25892de5445bcfe25aaa1"
-  integrity sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==
-
-picocolors@^1.1.0, picocolors@^1.1.1:
+picocolors@^1.0.1, picocolors@^1.1.0, picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
@@ -134,15 +129,7 @@ postcss-minify@^1.1.0:
     postcss-selector-parser "^6.0"
     postcss-value-parser "^4.1"
 
-postcss-selector-parser@^6.0, postcss-selector-parser@^6.0.4:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.1.1.tgz#5be94b277b8955904476a2400260002ce6c56e38"
-  integrity sha512-b4dlw/9V8A71rLIDsSwVmak9z2DuBUB7CA1/wSdelNEzqsjoSPeADTWNO09lpH49Diy3/JIZ2bSPB1dI3LJCHg==
-  dependencies:
-    cssesc "^3.0.0"
-    util-deprecate "^1.0.2"
-
-postcss-selector-parser@^6.1.2:
+postcss-selector-parser@^6.0, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz#27ecb41fb0e3b6ba7a1ec84fff347f734c7929de"
   integrity sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==
@@ -172,11 +159,11 @@ read-cache@^1.0.0:
     pify "^2.3.0"
 
 resolve@^1.1.7:
-  version "1.22.8"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
-  integrity sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==
+  version "1.22.10"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.10.tgz#b663e83ffb09bbf2386944736baae803029b8b39"
+  integrity sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==
   dependencies:
-    is-core-module "^2.13.0"
+    is-core-module "^2.16.0"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
@@ -185,35 +172,40 @@ source-map-js@^1.2.1:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
-style-forge.base@^2025.1.6:
-  version "2025.1.6"
-  resolved "https://registry.yarnpkg.com/style-forge.base/-/style-forge.base-2025.1.6.tgz#a17fe6bc274f4ac724cb5fd3e9c09f47ada575f8"
-  integrity sha512-qzZ8efxWd352umKxMWTQZo2n3uzsaPbYHSvI6nxkxuvCxOyi3t9bYLM3smSIKuiNqtKvym7Pqbx1CfxvmXUuPw==
+style-forge.base@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.base/-/style-forge.base-2025.1.8.tgz#b87fe0a1bf5378c012c41b12c6b6da122ee0cbe7"
+  integrity sha512-JhrRD259PsroM2soP9w92zTpVpQzaXGU3Oqsq6X6+MOssQKY0oGS5pYCm1st698KUE0yQeMRokvugzYRodMooQ==
 
-style-forge.colors@^2025.1.4:
-  version "2025.1.4"
-  resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.1.4.tgz#69969c85bc85a4dd6eb200fda82e0002e54ed73a"
-  integrity sha512-hyiRJVTVmPrrfZ+VjHBiz8TfZ1kzbk0opTi6IwHP+Vv6BlxZoyTI8jQWLhuYW7WBeXLvwMHc14wG09m3sVc4vg==
+style-forge.colors@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.1.8.tgz#cf177a47ae7712e3fbf6909b33129315a2ed0cc6"
+  integrity sha512-7TJRTjMvm8bB5tT35mTCjZVcj2TT1ILUFpQ6q5foPXqhZ/IwEg3RKhpWqBZZIIFLhdAFIBKPFN5YTQ9mpZVVSQ==
 
-style-forge.form@^2025.1.6:
-  version "2025.1.6"
-  resolved "https://registry.yarnpkg.com/style-forge.form/-/style-forge.form-2025.1.6.tgz#b1c16cc948496daa238ce1b602c921dd606450cc"
-  integrity sha512-KK8dMVAKiab927umvtUPtek2RvPfYLQ/k3+WEfPqqPQ2c0ZX6uxVR5da0x2VkB/nu6Qa7uP0Q/3P6NqK5GdoLg==
+style-forge.form@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.form/-/style-forge.form-2025.1.8.tgz#f1fbc8a57cffda6cda20704961e52092fc884d9c"
+  integrity sha512-xPkzWN1RwHzJkDCyosRHimAuBRXxYM6CtAECuVgoGznxGQJPeqruh30LZZ+r21hrGLQ2oB7qsrONoW7StlzgBw==
 
-style-forge.helpers@^2025.1.6:
-  version "2025.1.6"
-  resolved "https://registry.yarnpkg.com/style-forge.helpers/-/style-forge.helpers-2025.1.6.tgz#083b099544c8b70d2f0646c50ad8f4c6a5736413"
-  integrity sha512-C/mEaC8eKYxt6fqoHHK3NhB3fBflLP9chDinCYNh2ayLBPkOfcnVIDn8F2NIjV7ZAuGYLrMARxhVvURRz7uWTA==
+style-forge.helpers@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.helpers/-/style-forge.helpers-2025.1.8.tgz#ea1dda5bf05e8281569f5321d4d6a537cbee44b4"
+  integrity sha512-r6a6lQlLjE6ZcQLKiDPHoq0T1ZeYeUTDML5GuQ5sopTuD6bCvBvleJQfEuH/A33Te0KjX9TudBeTOkjaD1WsHA==
 
-style-forge.patterns@^2.0.19:
-  version "2.0.19"
-  resolved "https://registry.yarnpkg.com/style-forge.patterns/-/style-forge.patterns-2.0.19.tgz#b3c9adac85f428934ef69ec6682becd4cafc12b4"
-  integrity sha512-t8uh6hRnzbKNaZUY15o7pzzjaCiaoRhI0imxCKR3ZR0cNldZmc8ZyFvCBhuLPGEOkCMsvx/d7jtQ/70wPva7oA==
+style-forge.media@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.media/-/style-forge.media-2025.1.8.tgz#9720f4b53f49df0f8eae74fafb803b4840da7b44"
+  integrity sha512-OBGoTehNXAsZrwqiqu0vPDws6iHgujKRyJuTwhvkZyklTf2bQV57LoPssA5xTroaVX2hnvTO14q3bSNg0lXEcQ==
 
-style-forge.themes@^2025.1.6:
-  version "2025.1.6"
-  resolved "https://registry.yarnpkg.com/style-forge.themes/-/style-forge.themes-2025.1.6.tgz#543b1306d466e26ed9c0cedd001ba4b23f9028c3"
-  integrity sha512-35fT3x20rnGgZMxm8oFIQZNQ/46zeccFd90rP7CRDykWon99qmzR8p8NbB2Dhq5kONTN5y9jSoUCO/q5fSVM6A==
+style-forge.patterns@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.patterns/-/style-forge.patterns-2025.1.8.tgz#bf3d07c5c7a2395760f2bee0358348acb74136de"
+  integrity sha512-DpMp5Sg7GlqTQgzQ4srPp5YKGRqza7JiS/+ZlDzrwO73CttDmtiP/33JBsgLjc8ms5uRGzyDdoBoj6XJ8t9qQA==
+
+style-forge.themes@^2025.1.8:
+  version "2025.1.8"
+  resolved "https://registry.yarnpkg.com/style-forge.themes/-/style-forge.themes-2025.1.8.tgz#c0c5e0b5fddbe25d8e59570a7922093efc000a7f"
+  integrity sha512-kdecIIxQcGbLS569fKG70EdZ2wKdcsDUUXAGpnbDpoj97rY9hTvx6n+4ImfCMn3O+NiOJiAgH9iYyJRACjuyeQ==
 
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"

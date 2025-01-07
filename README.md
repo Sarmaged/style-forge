@@ -29,6 +29,11 @@ If you would like to contribute, please refer to the contributing guidelines in 
     <th>Description</th>
   </tr>
   <tr>
+    <td><a href="https://github.com/Style-Forge/hub">hub</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge" alt="npm"></td>
+    <td>Central repository that integrates all project modules.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/Style-Forge/base">base</a></td>
     <td><img src="https://img.shields.io/npm/v/style-forge.base" alt="npm"></td>
     <td>Basic styles and foundational components of the project.</td>
@@ -57,6 +62,11 @@ If you would like to contribute, please refer to the contributing guidelines in 
     <td><a href="https://github.com/Style-Forge/colors">colors</a></td>
     <td><img src="https://img.shields.io/npm/v/style-forge.colors" alt="npm"></td>
     <td>Color palettes and styles for the project.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/media">media</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.media" alt="npm"></td>
+    <td>Comprehensive CSS media query helpers for responsive web design.</td>
   </tr>
 </table>
 
