@@ -1,6 +1,6 @@
 {
   "name": "style-forge",
-  "version": "2025.1.10",
+  "version": "2025.1.18",
   "description": "Style-Forge: CSS framework with themes, utilities, flexbox, and grid for creating responsive websites.",
   "type": "module",
   "main": "style-forge.css",
@@ -45,13 +45,13 @@
     "postcss-minify": "^1.1.0"
   },
   "dependencies": {
-    "style-forge.base": "^2025.1.10",
-    "style-forge.colors": "^2025.1.9",
-    "style-forge.form": "^2025.1.10",
-    "style-forge.helpers": "^2025.1.10",
-    "style-forge.media": "^2025.1.10",
-    "style-forge.patterns": "^2025.1.8",
-    "style-forge.themes": "^2025.1.8"
+    "style-forge.base": "^2025.1.18",
+    "style-forge.colors": "^2025.1.18",
+    "style-forge.form": "^2025.1.18",
+    "style-forge.helpers": "^2025.1.18",
+    "style-forge.media": "^2025.1.18",
+    "style-forge.patterns": "^2025.1.18",
+    "style-forge.themes": "^2025.1.18"
   },
   "bugs": {
     "url": "https://github.com/Style-Forge/hub/issues"
