@@ -177,25 +177,25 @@ style-forge.base@^2025.1.22:
   resolved "https://registry.yarnpkg.com/style-forge.base/-/style-forge.base-2025.1.22.tgz#619b62fcb5d6d2202ef1d147e1390ae073b99b0c"
   integrity sha512-VVPiDkmhmJGSzGdY9jHMHg41BPl5hwc+vHGBg2ZUBXlchjQ0acG3mNb0DTVLw5FnK9YTUEy47uCpq8ikHqHnkQ==
 
-style-forge.colors@^2025.1.22:
-  version "2025.1.22"
-  resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.1.22.tgz#f4b64c49a37f13758ebfa507b703770b1cc79f04"
-  integrity sha512-OhqvR6TxRlKF6VBRogcIjvSPUbKIt74R08S7yovj5LBjve/Pwh2HYzBOtwcs9GL0NzTmVxtv1QvvndgcN7f/vw==
+style-forge.colors@^2025.1.24:
+  version "2025.1.24"
+  resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.1.24.tgz#37e55675fb3f1012afc5485d49b1cab9d8c1facb"
+  integrity sha512-ADI8Pl/N37drX4vkZwGj20FVmx7ZUag/Df3E47t0HfKxPLzqpzrDvbwzl6+uhHe4czcQXdy3rchL+LvAW7Px1g==
 
-style-forge.form@^2025.1.22:
-  version "2025.1.22"
-  resolved "https://registry.yarnpkg.com/style-forge.form/-/style-forge.form-2025.1.22.tgz#3ca04fa0dcd38fed0d38d5b90faf0f3ef8a806e3"
-  integrity sha512-nE7h3MaZKPUInQqgDPLpf+1UHcARczJTO5PmmPpfRlVNNmkbFt8NcJfaLc3+7AgseMqCK1WzdtvJP95UOqvotg==
+style-forge.form@^2025.1.24:
+  version "2025.1.24"
+  resolved "https://registry.yarnpkg.com/style-forge.form/-/style-forge.form-2025.1.24.tgz#51dd18889f675721e0a316d7dc8dcf93c9f2d174"
+  integrity sha512-EeUW/kSHT5aqIhhpW7WMA422JhKXpWJFw9T5a1C2GHPPxl14aIcs5OOXIYV4ZRVN9nIBGkfRde9CxsQB9EcVlg==
 
-style-forge.helpers@^2025.1.22:
-  version "2025.1.22"
-  resolved "https://registry.yarnpkg.com/style-forge.helpers/-/style-forge.helpers-2025.1.22.tgz#583892d0c9ce65e7acafe5abc6afadef99376209"
-  integrity sha512-eu+SaIsJBg9RgnsP2Nm3XsUocrFkwUa7SaT7kMGPFGuo+JtdY4I8YxvgbNSiOvNsjfk9I65Vivs5DTSPilXGgw==
+style-forge.helpers@^2025.1.24:
+  version "2025.1.24"
+  resolved "https://registry.yarnpkg.com/style-forge.helpers/-/style-forge.helpers-2025.1.24.tgz#b930cd55d6c58855fc260e515dc61faef281e036"
+  integrity sha512-fMaLOU9fxp/INNxfSF8oAG1fDnvLzHj3lBMj+z2TT6SMZP3YW3qtnMhRM+pNhixyK7gqBikbv8tvJ4TzAK6fOg==
 
-style-forge.media@^2025.1.22:
-  version "2025.1.22"
-  resolved "https://registry.yarnpkg.com/style-forge.media/-/style-forge.media-2025.1.22.tgz#28ecb698faa17d54ffebc592847cbf6627938e95"
-  integrity sha512-jebnr+ScMf+PI1omMzKggXUGaDgEG1YyD7Bjb9axezvACuCLSIwjC4Wk1EyrJT9VRgHNsot6Y12KFp4+1HY1bw==
+style-forge.media@^2025.1.24:
+  version "2025.1.24"
+  resolved "https://registry.yarnpkg.com/style-forge.media/-/style-forge.media-2025.1.24.tgz#8c70334ec06e9af59bdba795a28edd327d1ac03c"
+  integrity sha512-jx5EnE8EdzV30J2Q6qvgM9BypAVtz3eIj4kDPEStUx997WNaj2KDxMMpeHbipGryvLYJgMg+tINViZ9Omvz9EA==
 
 style-forge.patterns@^2025.1.18:
   version "2025.1.18"
