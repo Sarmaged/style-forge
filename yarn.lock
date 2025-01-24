@@ -182,20 +182,20 @@ style-forge.colors@^2025.1.24:
   resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.1.24.tgz#37e55675fb3f1012afc5485d49b1cab9d8c1facb"
   integrity sha512-ADI8Pl/N37drX4vkZwGj20FVmx7ZUag/Df3E47t0HfKxPLzqpzrDvbwzl6+uhHe4czcQXdy3rchL+LvAW7Px1g==
 
-style-forge.form@^2025.1.24:
-  version "2025.1.24"
-  resolved "https://registry.yarnpkg.com/style-forge.form/-/style-forge.form-2025.1.24.tgz#51dd18889f675721e0a316d7dc8dcf93c9f2d174"
-  integrity sha512-EeUW/kSHT5aqIhhpW7WMA422JhKXpWJFw9T5a1C2GHPPxl14aIcs5OOXIYV4ZRVN9nIBGkfRde9CxsQB9EcVlg==
+style-forge.form@^2025.1.25:
+  version "2025.1.25"
+  resolved "https://registry.yarnpkg.com/style-forge.form/-/style-forge.form-2025.1.25.tgz#9ea467e3334826f7b2d6bab87a1cd21e506e3b5c"
+  integrity sha512-tpuZ7IWZEDHtt8JxoBtfkrHo2pjdeL34TUHdz3Z0zwKe0vSh8ahb8+j2wYW02OoeRjxI7bMhX0H27HOJxy2oyA==
 
-style-forge.helpers@^2025.1.24:
-  version "2025.1.24"
-  resolved "https://registry.yarnpkg.com/style-forge.helpers/-/style-forge.helpers-2025.1.24.tgz#b930cd55d6c58855fc260e515dc61faef281e036"
-  integrity sha512-fMaLOU9fxp/INNxfSF8oAG1fDnvLzHj3lBMj+z2TT6SMZP3YW3qtnMhRM+pNhixyK7gqBikbv8tvJ4TzAK6fOg==
+style-forge.helpers@^2025.1.25:
+  version "2025.1.25"
+  resolved "https://registry.yarnpkg.com/style-forge.helpers/-/style-forge.helpers-2025.1.25.tgz#dfd249a42230aa88327d625b38e1d78a97aee638"
+  integrity sha512-5Waiit+3+lZFelZWwxCzo1cAXwGruV/a6jAbyy7TbOhgqDWS0LpfEobyTIuAztvneQ3wRq4QMJvY+xNHsRMfaw==
 
-style-forge.media@^2025.1.24:
-  version "2025.1.24"
-  resolved "https://registry.yarnpkg.com/style-forge.media/-/style-forge.media-2025.1.24.tgz#8c70334ec06e9af59bdba795a28edd327d1ac03c"
-  integrity sha512-jx5EnE8EdzV30J2Q6qvgM9BypAVtz3eIj4kDPEStUx997WNaj2KDxMMpeHbipGryvLYJgMg+tINViZ9Omvz9EA==
+style-forge.media@^2025.1.25:
+  version "2025.1.25"
+  resolved "https://registry.yarnpkg.com/style-forge.media/-/style-forge.media-2025.1.25.tgz#2cff376167e962c55f3fc5c6b4d57fa9e0a05baa"
+  integrity sha512-HZIaDnweCxxPp25vWGuiKyDkjQY/2ckLiKebeMiKnagpA0QuBy2CFm8bf6xG9JLys370wnxDBPMAC9jRvbuizQ==
 
 style-forge.patterns@^2025.1.18:
   version "2025.1.18"
