@@ -44,6 +44,13 @@ If you would like to contribute, please refer to the contributing guidelines in 
     <td>Basic styles and foundational components of the project.</td>
   </tr>
   <tr>
+    <td>form</td>
+    <td><a href="https://github.com/Style-Forge/form" target="_blank">GitHub</a></td>
+    <td><a href="https://npmjs.com/package/style-forge.form" target="_blank">NPM</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.form" alt="npm"></td>
+    <td>Styles and components for creating forms.</td>
+  </tr>
+  <tr>
     <td>helpers</td>
     <td><a href="https://github.com/Style-Forge/helpers" target="_blank">GitHub</a></td>
     <td><a href="https://npmjs.com/package/style-forge.helpers" target="_blank">NPM</a></td>
@@ -56,13 +63,6 @@ If you would like to contribute, please refer to the contributing guidelines in 
     <td><a href="https://npmjs.com/package/style-forge.media" target="_blank">NPM</a></td>
     <td><img src="https://img.shields.io/npm/v/style-forge.media" alt="npm"></td>
     <td>Comprehensive CSS media query helpers for responsive web design.</td>
-  </tr>
-  <tr>
-    <td>form</td>
-    <td><a href="https://github.com/Style-Forge/form" target="_blank">GitHub</a></td>
-    <td><a href="https://npmjs.com/package/style-forge.form" target="_blank">NPM</a></td>
-    <td><img src="https://img.shields.io/npm/v/style-forge.form" alt="npm"></td>
-    <td>Styles and components for creating forms.</td>
   </tr>
   <tr>
     <td>themes</td>
