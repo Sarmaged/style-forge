@@ -1,7 +1,7 @@
 @import 'style-forge.base/src/all.css';
+@import 'style-forge.form/src/all.css';
 @import 'style-forge.helpers/src/all.css';
 @import 'style-forge.media/src/all.css';
-@import 'style-forge.form/src/all.css';
 @import 'style-forge.themes/src/all.css';
 @import 'style-forge.patterns/src/all.css';
 @import 'style-forge.colors/src/rainbow.css';
