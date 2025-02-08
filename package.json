@@ -1,6 +1,6 @@
 {
   "name": "style-forge",
-  "version": "2025.2.6",
+  "version": "2025.2.8",
   "description": "Style-Forge: CSS framework with themes, utilities, flexbox, and grid for creating responsive websites.",
   "type": "module",
   "main": "style-forge.css",
@@ -48,8 +48,8 @@
     "style-forge.base": "^2025.2.5",
     "style-forge.colors": "^2025.2.5",
     "style-forge.form": "^2025.2.5",
-    "style-forge.helpers": "^2025.2.6",
-    "style-forge.media": "^2025.2.6",
+    "style-forge.helpers": "^2025.2.8",
+    "style-forge.media": "^2025.2.8",
     "style-forge.patterns": "^2025.2.5",
     "style-forge.themes": "^2025.2.5"
   },
