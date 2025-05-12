@@ -447,10 +447,10 @@ style-forge.base@^2025.2.5:
   resolved "https://registry.yarnpkg.com/style-forge.base/-/style-forge.base-2025.2.5.tgz#4a46ec0283e978906b903a6dd80129e34d73572f"
   integrity sha512-JDY0MV4lExAVVu74HemJ+G5AqrXRSUiCAI9ZS3vUaGlNiPRznMR6MxvGi1T+LOF8la8CjI02DytS8yDeQ0Tl/Q==
 
-style-forge.colors@^2025.5.12:
-  version "2025.5.12"
-  resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.5.12.tgz#2c2028cbe370a62f32dfe8c24452f74fb58ed0e0"
-  integrity sha512-xZDQpYh8mLyCU+wXrFr4r/zlliH8lLussA3xRKsCBR5q7IH/6l6pxjF824fQr5JscECa4EmMSn2VmE7RDDd1Tg==
+style-forge.colors@^2025.5.13:
+  version "2025.5.13"
+  resolved "https://registry.yarnpkg.com/style-forge.colors/-/style-forge.colors-2025.5.13.tgz#7931c9dfd6128637a1077ba93698b384ff83662a"
+  integrity sha512-+HTQB4RhD6JW1FypfpgVxPYf7P67Gfospw7nVvFuIXKcSXFP1A+4aCBokfeUEbKdl4NB2GAOSxoEUsLf4I0S5g==
   dependencies:
     chalk "^5.4.1"
     inquirer "^12.6.1"
