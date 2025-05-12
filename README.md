@@ -83,7 +83,7 @@ If you would like to contribute, please refer to the contributing guidelines in 
     <td><a href="https://github.com/Style-Forge/colors" target="_blank">GitHub</a></td>
     <td><a href="https://npmjs.com/package/style-forge.colors" target="_blank">NPM</a></td>
     <td><img src="https://img.shields.io/npm/v/style-forge.colors" alt="npm"></td>
-    <td>Color palettes and styles for the project.</td>
+    <td>Atomic HSL-based color generator and palette engine.</td>
   </tr>
 </table>
 
