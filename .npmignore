@@ -1,6 +1,11 @@
-!/package.json
-!/README.md
-!/src/**/*
-!/*.css
-
 *
+
+!.browserslistrc
+!CONTRIBUTING.md
+!LICENSE
+!main.js
+!package.json
+!README.md
+
+!utils/
+!utils/**

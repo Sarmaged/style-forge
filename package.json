@@ -1,9 +1,11 @@
 {
   "name": "style-forge",
-  "version": "2025.5.13",
+  "version": "2025.5.16",
   "description": "Style-Forge: CSS framework with themes, utilities, flexbox, and grid for creating responsive websites.",
   "type": "module",
-  "main": "style-forge.css",
+  "bin": {
+    "style-forge": "./main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Style-Forge/hub.git"
@@ -32,25 +34,16 @@
     "helpers",
     "colors"
   ],
-  "scripts": {
-    "build": "node builder.js"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "chalk": "^5.4.1",
+    "inquirer": "^12.6.1",
+    "json-stringify-pretty-compact": "^4.0.0",
+    "postcss": "^8.5.3",
     "postcss-combine-duplicated-selectors": "^10.0.3",
-    "postcss-discard-comments": "^7.0.3",
+    "postcss-discard-comments": "^7.0.4",
     "postcss-import": "^16.1.0",
     "postcss-minify": "^1.1.0"
-  },
-  "dependencies": {
-    "style-forge.base": "^2025.2.5",
-    "style-forge.colors": "^2025.5.13",
-    "style-forge.form": "^2025.2.5",
-    "style-forge.helpers": "^2025.2.8",
-    "style-forge.media": "^2025.2.8",
-    "style-forge.patterns": "^2025.2.5",
-    "style-forge.themes": "^2025.2.5"
   },
   "bugs": {
     "url": "https://github.com/Style-Forge/hub/issues"
@@ -58,5 +51,11 @@
   "homepage": "https://style-forge.github.io/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
   }
 }
