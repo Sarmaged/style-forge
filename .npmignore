@@ -1,6 +1,9 @@
-!/package.json
-!/README.md
-!/src/**/*
-!/*.css
-
 *
+
+!LICENSE
+!main.js
+!package.json
+!README.md
+
+!utils/
+!utils/**
