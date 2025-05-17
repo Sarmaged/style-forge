@@ -15,8 +15,7 @@ import { MODULES } from './utils/modules.js'
 import { getProjectRoot } from './utils/getProjectRoot.js'
 import { installPackages, uninstallPackages } from './utils/pkg.js'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 async function main() {
   console.clear()
@@ -32,7 +31,7 @@ async function main() {
     process.exit(1)
   }
 
-  const pkg = JSON.parse(readFileSync(resolve(projectRoot, 'package.json'), 'utf8'))
+  const pkg = JSON.parse(readFileSync(resolve(projectRoot, 'package.json'), 'utf-8'))
   const deps = pkg.dependencies || {}
 
   const choices = MODULES.map(name => {
