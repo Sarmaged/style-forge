@@ -1,5 +1,6 @@
 import { readFileSync, mkdirSync, writeFileSync } from 'fs'
 import { dirname, resolve } from 'path'
+import { fileURLToPath } from 'url'
 
 // packages
 import postcss from 'postcss'
@@ -14,11 +15,11 @@ import { MODULES } from './modules.js'
 import { config } from './config.js'
 import { getProjectRoot } from './getProjectRoot.js'
 
-const projectRoot = getProjectRoot()
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
-const OUTPUT = resolve(projectRoot, `${config.output.dir}/${config.output.name}.css`)
+const OUTPUT = resolve(getProjectRoot(), `${config.output.dir}/${config.output.name}.css`)
 
-const pkg = JSON.parse(readFileSync(resolve(projectRoot, 'package.json'), 'utf8'))
+const pkg = JSON.parse(readFileSync(resolve(__dirname, '..', 'package.json'), 'utf-8'))
 const deps = Object.keys(pkg.dependencies || {})
 
 const title = pkg.name + ' ' + pkg.version
