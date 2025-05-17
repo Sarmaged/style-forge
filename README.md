@@ -6,12 +6,19 @@
 ![npm](https://img.shields.io/npm/dm/style-forge)
 ![build](https://github.com/Style-Forge/hub/actions/workflows/release.yml/badge.svg)
 
-`Style-Forge` package is a comprehensive CSS framework designed for modern web development. It provides a wide range of utilities and components to streamline the process of building responsive, aesthetically pleasing websites. With features like customizable themes, utility classes, and support for modern CSS technologies like flexbox and grid, style-forge aims to enhance productivity and maintainability in frontend development.
+`Style-Forge` is a modular CSS framework with a powerful CLI for installing, building, and customizing atomic design modules.  
+It empowers developers to generate styles, manage themes, and control every layer of styling — from utilities to color systems — with full flexibility.
 
 ## 🚀 Quick Start
 
 ```bash
-npx style-forge
+npx style-forge              # Interactive module installer and builder
+```
+
+Want to generate atomic HSL-based colors?
+
+```bash
+npx style-forge.colors       # Standalone color generator
 ```
 
 ## Documentation

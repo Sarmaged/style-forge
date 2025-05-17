@@ -1,7 +1,7 @@
 {
   "name": "style-forge",
-  "version": "2025.5.17",
-  "description": "Style-Forge: CSS framework with themes, utilities, flexbox, and grid for creating responsive websites.",
+  "version": "2025.5.18",
+  "description": "Style-Forge: Modular CSS framework with a powerful CLI for installing, building, and customizing atomic design modules.",
   "type": "module",
   "bin": {
     "style-forge": "./main.js"
@@ -14,25 +14,21 @@
   "license": "MIT",
   "keywords": [
     "style-forge",
-    "css-framework",
-    "modern-design",
+    "css-frameworks",
+    "modular-css",
+    "cli-tool",
+    "postcss",
+    "atomic-css",
+    "utility-first",
     "responsive-design",
-    "utilities",
-    "web-development",
-    "frontend",
-    "ui-components",
-    "css-grid",
-    "css-flexbox",
     "themes",
-    "form-validation",
     "custom-themes",
+    "color-generator",
+    "css-builder",
+    "design-system",
+    "frontend-framework",
     "grid",
-    "flex",
-    "input",
-    "select",
-    "textarea",
-    "helpers",
-    "colors"
+    "flexbox"
   ],
   "dependencies": {
     "autoprefixer": "^10.4.21",

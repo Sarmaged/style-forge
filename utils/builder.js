@@ -19,22 +19,22 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const OUTPUT = resolve(getProjectRoot(), `${config.output.dir}/${config.output.name}.css`)
 
-const pkg = JSON.parse(readFileSync(resolve(__dirname, '..', 'package.json'), 'utf-8'))
-const deps = Object.keys(pkg.dependencies || {})
-
-const title = pkg.name + ' ' + pkg.version
-const license = pkg.license + ' License'
-const link = pkg.repository.url.replace('git+', '').replace('.git', '')
+const forgePkg = JSON.parse(readFileSync(resolve(__dirname, '..', 'package.json'), 'utf-8'))
+const title = forgePkg.name + ' ' + forgePkg.version
+const license = forgePkg.license + ' License'
+const link = forgePkg.repository.url.replace('git+', '').replace('.git', '')
 const HEADER = '/*! ' + [title, license, link].join(' | ') + ' */'
 
-const ordered = MODULES.filter(x => x !== 'style-forge.colors' && deps.includes(x))
+const userPkg = JSON.parse(readFileSync(resolve(getProjectRoot(), 'package.json'), 'utf-8'))
+const deps = Object.keys(userPkg.dependencies || {})
+const mds = MODULES.filter(x => x !== 'style-forge.colors' && deps.includes(x))
 
-if (ordered.length === 0) {
+if (mds.length === 0) {
   console.log(`❗ No compatible modules found for building ${config.output.name}.css`)
   process.exit(0)
 }
 
-const imports = ordered.map(name => `@import "${name}";`).join('\n')
+const imports = mds.map(name => `@import "${name}";`).join('\n')
 
 const plugins = [
   pImport,
